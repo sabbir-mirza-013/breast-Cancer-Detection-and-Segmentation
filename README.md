@@ -2,6 +2,7 @@
 
 This repository contains a multitask U-Net model implemented in TensorFlow/Keras designed for simultaneous breast ultrasound image segmentation and image-level classification (normal, benign, malignant). The model uses a shared encoder with separate segmentation and classification heads.
 
+
 Dataset
 Breast ultrasound images with corresponding JSON annotations containing segmentation masks and labels.
 
@@ -16,7 +17,7 @@ Custom Dice loss and Dice coefficient metric for segmentation.
 
 Supports multitask learning with combined loss and metrics.
 
-Data generator implemented using Keras Sequence for efficient loading and preprocessing.
+Data generator implemented using Keras Sequence for efficient loading and preprocessing.     
 
 Usage
 Train the model using the provided training and validation splits.
